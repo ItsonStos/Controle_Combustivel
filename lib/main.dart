@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:supply_control/view/control.dart';
+import 'package:supply_control/bottomNavigationBar.dart';
 
 void main() => runApp(MaterialApp(
-      home: Controle(),
+      home: BottomNavigation(),
       debugShowCheckedModeBanner: false,
     ));
